@@ -1,1 +1,2 @@
 web: gunicorn FlaskApp:app
+heroku ps:scale web=1
